@@ -4,7 +4,7 @@ export const profile = {
   email: 'mendrikavamet@gmail.com',
   github: 'https://github.com/valisoamendrika',
   linkedin: null, // ex : 'https://www.linkedin.com/in/ton-profil'
-  portrait: '/portrait.svg', // remplace par /portrait.webp (800 px, < 100 Ko)
+  portrait: '/portrait.jpeg', // remplace par /portrait.webp (800 px, < 100 Ko)
 }
 
 export const specialties = ['Applications web', 'Backend et API', 'Applications mobiles', 'Bases de données']
