@@ -1,37 +1,25 @@
 @import "tailwindcss";
 
-:root {
-  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  color-scheme: dark;
+@theme {
+  --font-sans: "Plus Jakarta Sans Variable", system-ui, sans-serif;
+  --color-bg: #131313;
+  --color-low: #1c1b1b;
+  --color-card: #201f1f;
+  --color-high: #2a2a2a;
+  --color-ink: #e5e2e1;
+  --color-muted: #e4beb3;
+  --color-accent: #ff5a1f;
+  --animate-marquee: marquee 32s linear infinite;
+  @keyframes marquee {
+    to { transform: translateX(-50%); }
+  }
 }
 
-html {
-  scroll-behavior: smooth;
-  background-color: #050812; /* Fond de secours très sombre derrière la 3D */
-}
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; background: var(--color-bg); }
+body { margin: 0; background: var(--color-bg); color: var(--color-ink); font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }
+:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; border-radius: 6px; }
 
-body {
-  font-family: var(--font-sans);
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  overflow-x: hidden;
-}
-
-/* Customisation de la Scrollbar moderne */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: #050812;
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgba(59, 130, 246, 0.3);
-  border-radius: 9999px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(6, 182, 212, 0.5);
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .animate-marquee { animation: none; }
 }
