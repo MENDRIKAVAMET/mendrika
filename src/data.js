@@ -14,7 +14,7 @@ export const projects = [
     title: 'BiteRush',
     description: 'Application de commande de repas avec rôles client, restaurant et livreur.',
     tags: ['Spring Boot', 'React', 'TypeScript'],
-    image: null, // ex : '/projects/biterush.webp'
+    image: '/projects/biterush.svg', // remplace par ta vraie capture (.webp)
     repo: null, // ex : 'https://github.com/valisoamendrika/biterush'
     live: null,
   },
@@ -22,7 +22,7 @@ export const projects = [
     title: 'JiramaSante',
     description: 'Application de gestion de dossiers médicaux.',
     tags: ['NestJS', 'Prisma', 'Angular'],
-    image: null,
+    image: '/projects/jiramasante.svg',
     repo: null,
     live: null,
   },
@@ -30,7 +30,7 @@ export const projects = [
     title: 'Mood Player',
     description: "Lecteur de musique qui classe l'humeur avec l'IA.",
     tags: ['Flutter'],
-    image: null,
+    image: '/projects/moodplayer.svg',
     repo: null,
     live: null,
   },

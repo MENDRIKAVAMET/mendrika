@@ -6,7 +6,7 @@ import { projects } from '../data'
 
 function Cover({ project }) {
   if (project.image) {
-    return <img src={project.image} alt={`Capture de ${project.title}`} loading="lazy" decoding="async" width="800" height="500" className="aspect-[16/10] w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+    return <img src={project.image} alt={`Aperçu du projet ${project.title}`} loading="lazy" decoding="async" width="800" height="500" className="aspect-[16/10] w-full object-cover transition-transform duration-500 group-hover:scale-105" />
   }
   return (
     <div className="grid aspect-[16/10] w-full place-items-center bg-high text-8xl font-extrabold text-accent transition-transform duration-500 group-hover:scale-105" aria-hidden="true">

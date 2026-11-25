@@ -40,7 +40,7 @@ export default function Hero() {
             />
             <div className="rounded-[2rem] bg-card p-6">
               <p className="mb-1 text-xl font-semibold tracking-tight">Du code propre pour des applications utiles.</p>
-              <p className="text-sm text-muted">Étudiant en 3e année à l'EMIT, je conçois des interfaces claires et des API fiables depuis Fianarantsoa, Madagascar.</p>
+              <p className="text-sm text-muted">Titulaire d'une licence en informatique de l'EMIT, je conçois des interfaces claires et des API fiables depuis Fianarantsoa, Madagascar.</p>
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ export default function About() {
         </Reveal>
         <Reveal delay={0.1} className="flex flex-col items-start gap-6 lg:col-span-6 lg:pt-6">
           <p className="max-w-prose text-lg leading-7 text-muted">
-            Étudiant en 3e année d'informatique à l'EMIT à Fianarantsoa, Madagascar, je parle français, malgache et allemand. Je conçois des solutions web et mobiles concrètes et je recherche un stage ou un premier poste de développeur.
+            Titulaire d'une licence en informatique de l'EMIT à Fianarantsoa, Madagascar, je parle français, malgache et allemand. Je conçois des solutions web et mobiles concrètes et je recherche un premier poste de développeur.
           </p>
           <PillButton href="#contact">Me contacter</PillButton>
         </Reveal>
