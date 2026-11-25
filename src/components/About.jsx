@@ -9,7 +9,7 @@ export default function About() {
         </Reveal>
         <Reveal delay={0.1} className="flex flex-col items-start gap-6 lg:col-span-6 lg:pt-6">
           <p className="max-w-prose text-lg leading-7 text-muted">
-            Titulaire d'une licence en informatique de l'EMIT à Fianarantsoa, Madagascar, je parle français, malgache et allemand. Je conçois des solutions web et mobiles concrètes et je recherche un premier poste de développeur.
+            Développeur junior, je cherche une équipe où progresser en livrant du vrai code. Mon terrain de jeu : Spring Boot, NestJS, React, Angular, Flutter. Français, malgache et anglais au quotidien, et des notions d'allemand.
           </p>
           <PillButton href="#contact">Me contacter</PillButton>
         </Reveal>

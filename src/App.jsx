@@ -18,7 +18,7 @@ export default function App() {
         <Projects />
         <Contact />
       </main>
-      <footer className="px-5 py-8 text-center text-sm text-muted">
+      <footer className="bg-accent px-5 pb-8 text-center text-sm font-semibold text-bg">
         Mendrika · Fianarantsoa, Madagascar · © {new Date().getFullYear()}
       </footer>
     </MotionConfig>
