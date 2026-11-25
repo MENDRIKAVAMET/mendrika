@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { PillButton, Reveal } from './ui'
 import { profile } from '../data'
 
-const field = 'w-full min-h-11 rounded-2xl bg-bg px-4 py-3 text-base font-normal text-ink placeholder:text-muted/60 focus:outline-none focus-visible:ring-2 focus-visible:ring-ink'
+const field = 'w-full min-h-11 rounded-2xl bg-bg px-4 py-3 text-base font-normal text-ink placeholder:text-muted/60 focus:outline-none focus-visible:ring-2 focus-visible:ring-white'
 const label = 'flex flex-col gap-1 text-sm font-bold'
 
 export default function Contact() {
@@ -18,8 +18,8 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="rounded-t-[40px] bg-accent text-bg">
-      <Reveal className="mx-auto max-w-7xl px-5 pb-8 pt-16 lg:px-16 lg:pt-24">
+    <section id="contact" className="px-5 pb-16 lg:px-16">
+      <Reveal className="panel mx-auto max-w-7xl rounded-[40px] p-6 text-white sm:p-10 lg:p-16">
         <h2 className="text-4xl font-extrabold leading-none tracking-tighter sm:text-7xl">Parlons de votre projet</h2>
         <a href={`mailto:${profile.email}`} className="mt-8 inline-block break-all text-2xl font-bold underline decoration-2 underline-offset-8 transition-opacity hover:opacity-70 sm:text-5xl">{profile.email}</a>
 

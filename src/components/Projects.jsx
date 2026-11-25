@@ -54,7 +54,7 @@ function Row({ p, onActive }) {
         <h3 className="text-3xl font-bold tracking-tight transition-all duration-300 group-hover:translate-x-3 group-hover:text-accent sm:text-5xl">{p.title}</h3>
         <div className="flex items-center gap-6">
           <Tags tags={p.tags} className="hidden lg:flex" />
-          <span className="grid size-11 shrink-0 place-items-center rounded-full bg-high transition-all duration-300 group-hover:rotate-45 group-hover:bg-accent" aria-hidden="true">
+          <span className="grid size-11 shrink-0 place-items-center rounded-full bg-high transition-all duration-300 group-hover:rotate-45 group-hover:bg-accent group-hover:text-bg" aria-hidden="true">
             <ArrowUpRight size={20} />
           </span>
         </div>
